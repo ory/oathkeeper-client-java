@@ -31,7 +31,7 @@ import java.util.Map;
  * GetRuleInternalServerErrorBody get rule internal server error body
  */
 @ApiModel(description = "GetRuleInternalServerErrorBody get rule internal server error body")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-01-13T17:13:19.631389Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-01-16T10:20:33.953400Z[GMT]")
 public class GetRuleInternalServerErrorBody {
   public static final String SERIALIZED_NAME_CODE = "code";
   @SerializedName(SERIALIZED_NAME_CODE)

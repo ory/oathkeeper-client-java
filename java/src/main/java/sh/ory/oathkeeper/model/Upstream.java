@@ -25,10 +25,10 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 
 /**
- * Upstream Upstream Upstream Upstream Upstream upstream
+ * Upstream Upstream Upstream Upstream Upstream Upstream upstream
  */
-@ApiModel(description = "Upstream Upstream Upstream Upstream Upstream upstream")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-01-13T17:13:19.631389Z[GMT]")
+@ApiModel(description = "Upstream Upstream Upstream Upstream Upstream Upstream upstream")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-01-16T10:20:33.953400Z[GMT]")
 public class Upstream {
   public static final String SERIALIZED_NAME_PRESERVE_HOST = "preserve_host";
   @SerializedName(SERIALIZED_NAME_PRESERVE_HOST)

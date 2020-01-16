@@ -2,7 +2,6 @@
 
 # JsonWebKey
 
-JSONWebKey json web key
 ## Properties
 
 Name | Type | Description | Notes

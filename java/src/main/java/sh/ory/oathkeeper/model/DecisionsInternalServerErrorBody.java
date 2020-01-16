@@ -31,7 +31,7 @@ import java.util.Map;
  * DecisionsInternalServerErrorBody decisions internal server error body
  */
 @ApiModel(description = "DecisionsInternalServerErrorBody decisions internal server error body")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-01-13T17:13:19.631389Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-01-16T10:20:33.953400Z[GMT]")
 public class DecisionsInternalServerErrorBody {
   public static final String SERIALIZED_NAME_CODE = "code";
   @SerializedName(SERIALIZED_NAME_CODE)
