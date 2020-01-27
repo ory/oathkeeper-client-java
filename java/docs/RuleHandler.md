@@ -2,7 +2,6 @@
 
 # RuleHandler
 
-RuleHandler rule handler
 ## Properties
 
 Name | Type | Description | Notes

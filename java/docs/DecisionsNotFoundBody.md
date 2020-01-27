@@ -2,7 +2,7 @@
 
 # DecisionsNotFoundBody
 
-DecisionsNotFoundBody decisions not found body
+DecisionsNotFoundBody DecisionsNotFoundBody decisions not found body
 ## Properties
 
 Name | Type | Description | Notes

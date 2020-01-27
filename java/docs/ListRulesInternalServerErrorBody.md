@@ -2,7 +2,7 @@
 
 # ListRulesInternalServerErrorBody
 
-ListRulesInternalServerErrorBody list rules internal server error body
+ListRulesInternalServerErrorBody ListRulesInternalServerErrorBody list rules internal server error body
 ## Properties
 
 Name | Type | Description | Notes

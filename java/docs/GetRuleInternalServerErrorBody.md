@@ -2,7 +2,7 @@
 
 # GetRuleInternalServerErrorBody
 
-GetRuleInternalServerErrorBody get rule internal server error body
+GetRuleInternalServerErrorBody GetRuleInternalServerErrorBody get rule internal server error body
 ## Properties
 
 Name | Type | Description | Notes

@@ -29,7 +29,7 @@ import java.util.List;
 /**
  * JsonWebKey
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-01-16T10:20:33.953400Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-01-27T09:12:09.092927Z[GMT]")
 public class JsonWebKey {
   public static final String SERIALIZED_NAME_ALG = "alg";
   @SerializedName(SERIALIZED_NAME_ALG)
@@ -130,11 +130,11 @@ public class JsonWebKey {
   }
 
    /**
-   * crv
+   * Get crv
    * @return crv
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "crv")
+  @ApiModelProperty(value = "")
 
   public String getCrv() {
     return crv;
@@ -153,11 +153,11 @@ public class JsonWebKey {
   }
 
    /**
-   * d
+   * Get d
    * @return d
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "d")
+  @ApiModelProperty(value = "")
 
   public String getD() {
     return d;
@@ -176,11 +176,11 @@ public class JsonWebKey {
   }
 
    /**
-   * dp
+   * Get dp
    * @return dp
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "dp")
+  @ApiModelProperty(value = "")
 
   public String getDp() {
     return dp;
@@ -199,11 +199,11 @@ public class JsonWebKey {
   }
 
    /**
-   * dq
+   * Get dq
    * @return dq
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "dq")
+  @ApiModelProperty(value = "")
 
   public String getDq() {
     return dq;
@@ -222,11 +222,11 @@ public class JsonWebKey {
   }
 
    /**
-   * e
+   * Get e
    * @return e
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "e")
+  @ApiModelProperty(value = "")
 
   public String getE() {
     return e;
@@ -245,11 +245,11 @@ public class JsonWebKey {
   }
 
    /**
-   * k
+   * Get k
    * @return k
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "k")
+  @ApiModelProperty(value = "")
 
   public String getK() {
     return k;
@@ -314,11 +314,11 @@ public class JsonWebKey {
   }
 
    /**
-   * n
+   * Get n
    * @return n
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "n")
+  @ApiModelProperty(value = "")
 
   public String getN() {
     return n;
@@ -337,11 +337,11 @@ public class JsonWebKey {
   }
 
    /**
-   * p
+   * Get p
    * @return p
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "p")
+  @ApiModelProperty(value = "")
 
   public String getP() {
     return p;
@@ -360,11 +360,11 @@ public class JsonWebKey {
   }
 
    /**
-   * q
+   * Get q
    * @return q
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "q")
+  @ApiModelProperty(value = "")
 
   public String getQ() {
     return q;
@@ -383,11 +383,11 @@ public class JsonWebKey {
   }
 
    /**
-   * qi
+   * Get qi
    * @return qi
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "qi")
+  @ApiModelProperty(value = "")
 
   public String getQi() {
     return qi;
@@ -429,11 +429,11 @@ public class JsonWebKey {
   }
 
    /**
-   * x
+   * Get x
    * @return x
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "x")
+  @ApiModelProperty(value = "")
 
   public String getX() {
     return x;
@@ -483,11 +483,11 @@ public class JsonWebKey {
   }
 
    /**
-   * y
+   * Get y
    * @return y
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(value = "y")
+  @ApiModelProperty(value = "")
 
   public String getY() {
     return y;

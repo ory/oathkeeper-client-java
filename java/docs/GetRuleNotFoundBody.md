@@ -2,7 +2,7 @@
 
 # GetRuleNotFoundBody
 
-GetRuleNotFoundBody get rule not found body
+GetRuleNotFoundBody GetRuleNotFoundBody get rule not found body
 ## Properties
 
 Name | Type | Description | Notes

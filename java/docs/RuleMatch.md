@@ -2,7 +2,6 @@
 
 # RuleMatch
 
-RuleMatch rule match
 ## Properties
 
 Name | Type | Description | Notes

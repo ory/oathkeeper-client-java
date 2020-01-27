@@ -2,7 +2,7 @@
 
 # DecisionsForbiddenBody
 
-DecisionsForbiddenBody decisions forbidden body
+DecisionsForbiddenBody DecisionsForbiddenBody decisions forbidden body
 ## Properties
 
 Name | Type | Description | Notes

@@ -2,7 +2,7 @@
 
 # DecisionsUnauthorizedBody
 
-DecisionsUnauthorizedBody decisions unauthorized body
+DecisionsUnauthorizedBody DecisionsUnauthorizedBody decisions unauthorized body
 ## Properties
 
 Name | Type | Description | Notes

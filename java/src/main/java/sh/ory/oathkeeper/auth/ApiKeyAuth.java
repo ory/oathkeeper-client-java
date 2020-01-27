@@ -18,7 +18,7 @@ import sh.ory.oathkeeper.Pair;
 import java.util.Map;
 import java.util.List;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-01-16T10:20:33.953400Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-01-27T09:12:09.092927Z[GMT]")
 public class ApiKeyAuth implements Authentication {
   private final String location;
   private final String paramName;

@@ -2,7 +2,7 @@
 
 # DecisionsInternalServerErrorBody
 
-DecisionsInternalServerErrorBody decisions internal server error body
+DecisionsInternalServerErrorBody DecisionsInternalServerErrorBody decisions internal server error body
 ## Properties
 
 Name | Type | Description | Notes

@@ -2,7 +2,7 @@
 
 # IsInstanceAliveInternalServerErrorBody
 
-IsInstanceAliveInternalServerErrorBody is instance alive internal server error body
+IsInstanceAliveInternalServerErrorBody IsInstanceAliveInternalServerErrorBody is instance alive internal server error body
 ## Properties
 
 Name | Type | Description | Notes

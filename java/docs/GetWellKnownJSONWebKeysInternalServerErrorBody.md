@@ -2,7 +2,7 @@
 
 # GetWellKnownJSONWebKeysInternalServerErrorBody
 
-GetWellKnownJSONWebKeysInternalServerErrorBody get well known JSON web keys internal server error body
+GetWellKnownJSONWebKeysInternalServerErrorBody GetWellKnownJSONWebKeysInternalServerErrorBody get well known JSON web keys internal server error body
 ## Properties
 
 Name | Type | Description | Notes
