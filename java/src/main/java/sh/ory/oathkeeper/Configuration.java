@@ -13,7 +13,7 @@
 
 package sh.ory.oathkeeper;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-01-27T09:12:09.092927Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-01-31T17:04:30.328502Z[GMT]")
 public class Configuration {
     private static ApiClient defaultApiClient = new ApiClient();
 
