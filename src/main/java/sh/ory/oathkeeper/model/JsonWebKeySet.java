@@ -30,7 +30,7 @@ import sh.ory.oathkeeper.model.JsonWebKey;
 /**
  * JsonWebKeySet
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-02-14T10:22:45.678627Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-02-14T10:34:02.590987Z[GMT]")
 public class JsonWebKeySet {
   public static final String SERIALIZED_NAME_KEYS = "keys";
   @SerializedName(SERIALIZED_NAME_KEYS)

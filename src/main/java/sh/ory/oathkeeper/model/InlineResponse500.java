@@ -30,7 +30,7 @@ import java.util.Map;
 /**
  * InlineResponse500
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-02-14T10:22:45.678627Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-02-14T10:34:02.590987Z[GMT]")
 public class InlineResponse500 {
   public static final String SERIALIZED_NAME_CODE = "code";
   @SerializedName(SERIALIZED_NAME_CODE)
