@@ -2,9 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>sh.ory.oathkeeper</groupId>
-    <artifactId>hydra-client</artifactId>
+    <artifactId>oathkeeper-client</artifactId>
     <packaging>jar</packaging>
-    <name>hydra-client</name>
+    <name>oathkeeper-client</name>
     <version>v0.36.0-beta.3</version>
     <url>https://github.com/openapitools/openapi-generator</url>
     <description>OpenAPI Java</description>
@@ -25,7 +25,7 @@
     <developers>
         <developer>
             <name>ORY</name>
-            <email>opensource@ory.sh</email>
+            <email>office+oss@ory.sh</email>
             <organization>www.ory.sh</organization>
             <organizationUrl>https://www.ory.sh</organizationUrl>
         </developer>

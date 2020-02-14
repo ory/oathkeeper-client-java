@@ -87,7 +87,7 @@ if(hasProperty('target') && target == 'android') {
 
     install {
         repositories.mavenInstaller {
-            pom.artifactId = 'hydra-client'
+            pom.artifactId = 'oathkeeper-client'
         }
     }
 
