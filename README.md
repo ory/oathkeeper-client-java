@@ -2,7 +2,7 @@
 
 ORY Oathkeeper
 - API version: Latest
-  - Build date: 2020-02-14T15:04:03.166372Z[GMT]
+  - Build date: 2020-02-14T15:21:01.008787Z[GMT]
 
 ORY Oathkeeper is a reverse proxy that checks the HTTP Authorization for validity against a set of rules. This service uses Hydra to validate access tokens and policies.
 
