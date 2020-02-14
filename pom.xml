@@ -5,7 +5,7 @@
     <artifactId>hydra-client</artifactId>
     <packaging>jar</packaging>
     <name>hydra-client</name>
-    <version>v0.36.0-beta.2</version>
+    <version>v0.36.0-beta.3</version>
     <url>https://github.com/openapitools/openapi-generator</url>
     <description>OpenAPI Java</description>
     <scm>
