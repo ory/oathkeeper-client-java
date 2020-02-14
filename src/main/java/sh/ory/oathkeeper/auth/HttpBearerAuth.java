@@ -18,7 +18,7 @@ import sh.ory.oathkeeper.Pair;
 import java.util.Map;
 import java.util.List;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-02-14T14:05:47.809955Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2020-02-14T14:55:15.073704Z[GMT]")
 public class HttpBearerAuth implements Authentication {
   private final String scheme;
   private String bearerToken;
