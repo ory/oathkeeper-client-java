@@ -8,7 +8,7 @@ info:
     for validity against a set of rules. This service uses Hydra to validate access
     tokens and policies.
   title: ORY Oathkeeper
-  version: v0.38.5-beta.1
+  version: v0.38.11-beta.1
 servers:
 - url: /
 paths:
@@ -102,7 +102,7 @@ paths:
           description: The standard error format
       summary: Check alive status
       tags:
-      - health
+      - api
       x-accepts: application/json
   /health/ready:
     get:
@@ -131,7 +131,7 @@ paths:
           description: healthNotReadyStatus
       summary: Check readiness status
       tags:
-      - health
+      - api
       x-accepts: application/json
   /rules:
     get:
@@ -225,7 +225,7 @@ paths:
           description: version
       summary: Get service version
       tags:
-      - version
+      - api
       x-accepts: application/json
 components:
   schemas:
@@ -549,6 +549,8 @@ components:
           type: string
         status:
           type: string
+      type: object
 x-forwarded-proto: string
 x-request-id: string
+x-original-swagger-version: "2.0"
 
