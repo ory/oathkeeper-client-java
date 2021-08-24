@@ -3,6 +3,7 @@
 # SwaggerVersion
 
 SwaggerVersion swagger version
+
 ## Properties
 
 Name | Type | Description | Notes

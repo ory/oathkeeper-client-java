@@ -3,6 +3,7 @@
 # SwaggerJSONWebKey
 
 SwaggerJSONWebKey swagger JSON web key
+
 ## Properties
 
 Name | Type | Description | Notes

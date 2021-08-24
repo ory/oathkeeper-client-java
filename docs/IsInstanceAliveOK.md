@@ -3,6 +3,7 @@
 # IsInstanceAliveOK
 
 healthStatus
+
 ## Properties
 
 Name | Type | Description | Notes

@@ -3,6 +3,7 @@
 # SwaggerHealthStatus
 
 SwaggerHealthStatus swagger health status
+
 ## Properties
 
 Name | Type | Description | Notes

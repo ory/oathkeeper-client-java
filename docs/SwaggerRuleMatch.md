@@ -3,6 +3,7 @@
 # SwaggerRuleMatch
 
 SwaggerRuleMatch swagger rule match
+
 ## Properties
 
 Name | Type | Description | Notes

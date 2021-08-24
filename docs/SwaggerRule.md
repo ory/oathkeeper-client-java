@@ -2,6 +2,7 @@
 
 # SwaggerRule
 
+
 ## Properties
 
 Name | Type | Description | Notes

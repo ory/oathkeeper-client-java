@@ -3,6 +3,7 @@
 # SwaggerRulesResponse
 
 SwaggerRulesResponse A list of rules
+
 ## Properties
 
 Name | Type | Description | Notes

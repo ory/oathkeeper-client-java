@@ -3,6 +3,7 @@
 # SwaggerNotReadyStatus
 
 SwaggerNotReadyStatus swagger not ready status
+
 ## Properties
 
 Name | Type | Description | Notes
