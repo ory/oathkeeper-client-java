@@ -27,17 +27,17 @@ import org.junit.Test;
 
 
 /**
- * Model tests for Version
+ * Model tests for InlineResponse2001
  */
-public class VersionTest {
-    private final Version model = new Version();
+public class InlineResponse2001Test {
+    private final InlineResponse2001 model = new InlineResponse2001();
 
     /**
-     * Model tests for Version
+     * Model tests for InlineResponse2001
      */
     @Test
-    public void testVersion() {
-        // TODO: test Version
+    public void testInlineResponse2001() {
+        // TODO: test InlineResponse2001
     }
 
     /**

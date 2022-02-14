@@ -23,40 +23,47 @@ import com.google.gson.stream.JsonWriter;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
- * HealthStatus health status
+ * InlineResponse503
  */
-@ApiModel(description = "HealthStatus health status")
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-02-14T12:59:42.969797502Z[Etc/UTC]")
-public class HealthStatus {
-  public static final String SERIALIZED_NAME_STATUS = "status";
-  @SerializedName(SERIALIZED_NAME_STATUS)
-  private String status;
+public class InlineResponse503 {
+  public static final String SERIALIZED_NAME_ERRORS = "errors";
+  @SerializedName(SERIALIZED_NAME_ERRORS)
+  private Map<String, String> errors = new HashMap<>();
 
-  public HealthStatus() { 
+  public InlineResponse503() { 
   }
 
-  public HealthStatus status(String status) {
+  public InlineResponse503 errors(Map<String, String> errors) {
     
-    this.status = status;
+    this.errors = errors;
+    return this;
+  }
+
+  public InlineResponse503 putErrorsItem(String key, String errorsItem) {
+    this.errors.put(key, errorsItem);
     return this;
   }
 
    /**
-   * Status always contains \&quot;ok\&quot;.
-   * @return status
+   * Errors contains a list of errors that caused the not ready status.
+   * @return errors
   **/
-  @javax.annotation.Nullable
-  @ApiModelProperty(value = "Status always contains \"ok\".")
+  @javax.annotation.Nonnull
+  @ApiModelProperty(required = true, value = "Errors contains a list of errors that caused the not ready status.")
 
-  public String getStatus() {
-    return status;
+  public Map<String, String> getErrors() {
+    return errors;
   }
 
 
-  public void setStatus(String status) {
-    this.status = status;
+  public void setErrors(Map<String, String> errors) {
+    this.errors = errors;
   }
 
 
@@ -68,20 +75,20 @@ public class HealthStatus {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    HealthStatus healthStatus = (HealthStatus) o;
-    return Objects.equals(this.status, healthStatus.status);
+    InlineResponse503 inlineResponse503 = (InlineResponse503) o;
+    return Objects.equals(this.errors, inlineResponse503.errors);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(status);
+    return Objects.hash(errors);
   }
 
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class HealthStatus {\n");
-    sb.append("    status: ").append(toIndentedString(status)).append("\n");
+    sb.append("class InlineResponse503 {\n");
+    sb.append("    errors: ").append(toIndentedString(errors)).append("\n");
     sb.append("}");
     return sb.toString();
   }

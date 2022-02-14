@@ -21,31 +21,34 @@ import com.google.gson.stream.JsonWriter;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
 
 
 /**
- * Model tests for Version
+ * Model tests for InlineResponse503
  */
-public class VersionTest {
-    private final Version model = new Version();
+public class InlineResponse503Test {
+    private final InlineResponse503 model = new InlineResponse503();
 
     /**
-     * Model tests for Version
+     * Model tests for InlineResponse503
      */
     @Test
-    public void testVersion() {
-        // TODO: test Version
+    public void testInlineResponse503() {
+        // TODO: test InlineResponse503
     }
 
     /**
-     * Test the property 'version'
+     * Test the property 'errors'
      */
     @Test
-    public void versionTest() {
-        // TODO: test version
+    public void errorsTest() {
+        // TODO: test errors
     }
 
 }

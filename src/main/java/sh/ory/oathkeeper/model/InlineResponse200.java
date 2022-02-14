@@ -25,30 +25,29 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 
 /**
- * HealthStatus health status
+ * InlineResponse200
  */
-@ApiModel(description = "HealthStatus health status")
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-02-14T12:59:42.969797502Z[Etc/UTC]")
-public class HealthStatus {
+public class InlineResponse200 {
   public static final String SERIALIZED_NAME_STATUS = "status";
   @SerializedName(SERIALIZED_NAME_STATUS)
   private String status;
 
-  public HealthStatus() { 
+  public InlineResponse200() { 
   }
 
-  public HealthStatus status(String status) {
+  public InlineResponse200 status(String status) {
     
     this.status = status;
     return this;
   }
 
    /**
-   * Status always contains \&quot;ok\&quot;.
+   * Always \&quot;ok\&quot;.
    * @return status
   **/
-  @javax.annotation.Nullable
-  @ApiModelProperty(value = "Status always contains \"ok\".")
+  @javax.annotation.Nonnull
+  @ApiModelProperty(required = true, value = "Always \"ok\".")
 
   public String getStatus() {
     return status;
@@ -68,8 +67,8 @@ public class HealthStatus {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    HealthStatus healthStatus = (HealthStatus) o;
-    return Objects.equals(this.status, healthStatus.status);
+    InlineResponse200 inlineResponse200 = (InlineResponse200) o;
+    return Objects.equals(this.status, inlineResponse200.status);
   }
 
   @Override
@@ -80,7 +79,7 @@ public class HealthStatus {
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class HealthStatus {\n");
+    sb.append("class InlineResponse200 {\n");
     sb.append("    status: ").append(toIndentedString(status)).append("\n");
     sb.append("}");
     return sb.toString();

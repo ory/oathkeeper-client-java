@@ -25,38 +25,37 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 
 /**
- * HealthStatus health status
+ * InlineResponse2001
  */
-@ApiModel(description = "HealthStatus health status")
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-02-14T12:59:42.969797502Z[Etc/UTC]")
-public class HealthStatus {
-  public static final String SERIALIZED_NAME_STATUS = "status";
-  @SerializedName(SERIALIZED_NAME_STATUS)
-  private String status;
+public class InlineResponse2001 {
+  public static final String SERIALIZED_NAME_VERSION = "version";
+  @SerializedName(SERIALIZED_NAME_VERSION)
+  private String version;
 
-  public HealthStatus() { 
+  public InlineResponse2001() { 
   }
 
-  public HealthStatus status(String status) {
+  public InlineResponse2001 version(String version) {
     
-    this.status = status;
+    this.version = version;
     return this;
   }
 
    /**
-   * Status always contains \&quot;ok\&quot;.
-   * @return status
+   * The version of Ory Oathkeeper.
+   * @return version
   **/
-  @javax.annotation.Nullable
-  @ApiModelProperty(value = "Status always contains \"ok\".")
+  @javax.annotation.Nonnull
+  @ApiModelProperty(required = true, value = "The version of Ory Oathkeeper.")
 
-  public String getStatus() {
-    return status;
+  public String getVersion() {
+    return version;
   }
 
 
-  public void setStatus(String status) {
-    this.status = status;
+  public void setVersion(String version) {
+    this.version = version;
   }
 
 
@@ -68,20 +67,20 @@ public class HealthStatus {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    HealthStatus healthStatus = (HealthStatus) o;
-    return Objects.equals(this.status, healthStatus.status);
+    InlineResponse2001 inlineResponse2001 = (InlineResponse2001) o;
+    return Objects.equals(this.version, inlineResponse2001.version);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(status);
+    return Objects.hash(version);
   }
 
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class HealthStatus {\n");
-    sb.append("    status: ").append(toIndentedString(status)).append("\n");
+    sb.append("class InlineResponse2001 {\n");
+    sb.append("    version: ").append(toIndentedString(version)).append("\n");
     sb.append("}");
     return sb.toString();
   }

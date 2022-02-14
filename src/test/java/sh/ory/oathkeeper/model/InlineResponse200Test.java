@@ -27,25 +27,25 @@ import org.junit.Test;
 
 
 /**
- * Model tests for Version
+ * Model tests for InlineResponse200
  */
-public class VersionTest {
-    private final Version model = new Version();
+public class InlineResponse200Test {
+    private final InlineResponse200 model = new InlineResponse200();
 
     /**
-     * Model tests for Version
+     * Model tests for InlineResponse200
      */
     @Test
-    public void testVersion() {
-        // TODO: test Version
+    public void testInlineResponse200() {
+        // TODO: test InlineResponse200
     }
 
     /**
-     * Test the property 'version'
+     * Test the property 'status'
      */
     @Test
-    public void versionTest() {
-        // TODO: test version
+    public void statusTest() {
+        // TODO: test status
     }
 
 }
