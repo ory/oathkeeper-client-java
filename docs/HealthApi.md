@@ -8,7 +8,7 @@ All URIs are relative to *http://localhost*
 | [**isInstanceReady**](HealthApi.md#isInstanceReady) | **GET** /health/ready | Check readiness status |
 
 
-<a name="isInstanceAlive"></a>
+<a id="isInstanceAlive"></a>
 # **isInstanceAlive**
 > HealthStatus isInstanceAlive()
 
@@ -67,7 +67,7 @@ No authorization required
 | **200** | healthStatus |  -  |
 | **0** | unexpectedError |  -  |
 
-<a name="isInstanceReady"></a>
+<a id="isInstanceReady"></a>
 # **isInstanceReady**
 > HealthStatus isInstanceReady()
 

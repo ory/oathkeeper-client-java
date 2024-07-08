@@ -8,7 +8,7 @@ info:
     for validity against a set of rules. This service uses Hydra to validate access
     tokens and policies.
   title: ORY Oathkeeper
-  version: v0.40.6
+  version: v0.40.8
 servers:
 - url: /
 paths:
@@ -33,7 +33,8 @@ paths:
       summary: Lists Cryptographic Keys
       tags:
       - api
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /decisions:
     get:
       description: |-
@@ -74,7 +75,8 @@ paths:
       summary: Access Control Decision API
       tags:
       - api
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /health/alive:
     get:
       description: |-
@@ -109,7 +111,9 @@ paths:
       summary: Check alive status
       tags:
       - health
-      x-accepts: application/json
+      x-accepts:
+      - application/json
+      - text/plain
   /health/ready:
     get:
       description: |-
@@ -153,7 +157,9 @@ paths:
       summary: Check readiness status
       tags:
       - health
-      x-accepts: application/json
+      x-accepts:
+      - application/json
+      - text/plain
   /rules:
     get:
       description: |-
@@ -191,7 +197,8 @@ paths:
       summary: List All Rules
       tags:
       - api
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /rules/{id}:
     get:
       description: Use this method to retrieve a rule from the storage. If it does
@@ -225,7 +232,8 @@ paths:
       summary: Retrieve a Rule
       tags:
       - api
-      x-accepts: application/json
+      x-accepts:
+      - application/json
   /version:
     get:
       description: |-
@@ -247,7 +255,8 @@ paths:
       summary: Get service version
       tags:
       - version
-      x-accepts: application/json
+      x-accepts:
+      - application/json
 components:
   responses:
     emptyResponse:
@@ -289,6 +298,15 @@ components:
       type: object
     genericError:
       description: The standard error format
+      example:
+        reason: reason
+        request: request
+        code: 0
+        details:
+        - key: "{}"
+        - key: "{}"
+        message: message
+        status: status
       properties:
         code:
           format: int64
@@ -309,6 +327,9 @@ components:
           type: string
       type: object
     healthNotReadyStatus:
+      example:
+        errors:
+          key: errors
       properties:
         errors:
           additionalProperties:

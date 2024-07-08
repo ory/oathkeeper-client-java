@@ -7,7 +7,7 @@ All URIs are relative to *http://localhost*
 | [**getVersion**](VersionApi.md#getVersion) | **GET** /version | Get service version |
 
 
-<a name="getVersion"></a>
+<a id="getVersion"></a>
 # **getVersion**
 > Version getVersion()
 
