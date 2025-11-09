@@ -24,41 +24,25 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 /**
- * Model tests for Upstream
+ * Model tests for GetVersion200Response
  */
-public class UpstreamTest {
-    private final Upstream model = new Upstream();
+public class GetVersion200ResponseTest {
+    private final GetVersion200Response model = new GetVersion200Response();
 
     /**
-     * Model tests for Upstream
+     * Model tests for GetVersion200Response
      */
     @Test
-    public void testUpstream() {
-        // TODO: test Upstream
+    public void testGetVersion200Response() {
+        // TODO: test GetVersion200Response
     }
 
     /**
-     * Test the property 'preserveHost'
+     * Test the property 'version'
      */
     @Test
-    public void preserveHostTest() {
-        // TODO: test preserveHost
-    }
-
-    /**
-     * Test the property 'stripPath'
-     */
-    @Test
-    public void stripPathTest() {
-        // TODO: test stripPath
-    }
-
-    /**
-     * Test the property 'url'
-     */
-    @Test
-    public void urlTest() {
-        // TODO: test url
+    public void versionTest() {
+        // TODO: test version
     }
 
 }

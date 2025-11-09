@@ -20,9 +20,8 @@ import com.google.gson.annotations.SerializedName;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
+import java.util.HashMap;
 import java.util.Map;
 
 import com.google.gson.Gson;
@@ -50,156 +49,41 @@ import java.util.Set;
 import sh.ory.oathkeeper.JSON;
 
 /**
- * The standard error format
+ * IsReady503Response
  */
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-11-09T17:05:08.288095774Z[Etc/UTC]", comments = "Generator version: 7.7.0")
-public class GenericError {
-  public static final String SERIALIZED_NAME_CODE = "code";
-  @SerializedName(SERIALIZED_NAME_CODE)
-  private Long code;
+public class IsReady503Response {
+  public static final String SERIALIZED_NAME_ERRORS = "errors";
+  @SerializedName(SERIALIZED_NAME_ERRORS)
+  private Map<String, String> errors = new HashMap<>();
 
-  public static final String SERIALIZED_NAME_DETAILS = "details";
-  @SerializedName(SERIALIZED_NAME_DETAILS)
-  private List<Map<String, Object>> details = new ArrayList<>();
-
-  public static final String SERIALIZED_NAME_MESSAGE = "message";
-  @SerializedName(SERIALIZED_NAME_MESSAGE)
-  private String message;
-
-  public static final String SERIALIZED_NAME_REASON = "reason";
-  @SerializedName(SERIALIZED_NAME_REASON)
-  private String reason;
-
-  public static final String SERIALIZED_NAME_REQUEST = "request";
-  @SerializedName(SERIALIZED_NAME_REQUEST)
-  private String request;
-
-  public static final String SERIALIZED_NAME_STATUS = "status";
-  @SerializedName(SERIALIZED_NAME_STATUS)
-  private String status;
-
-  public GenericError() {
+  public IsReady503Response() {
   }
 
-  public GenericError code(Long code) {
-    this.code = code;
+  public IsReady503Response errors(Map<String, String> errors) {
+    this.errors = errors;
     return this;
   }
 
-  /**
-   * Get code
-   * @return code
-   */
-  @javax.annotation.Nullable
-  public Long getCode() {
-    return code;
-  }
-
-  public void setCode(Long code) {
-    this.code = code;
-  }
-
-
-  public GenericError details(List<Map<String, Object>> details) {
-    this.details = details;
-    return this;
-  }
-
-  public GenericError addDetailsItem(Map<String, Object> detailsItem) {
-    if (this.details == null) {
-      this.details = new ArrayList<>();
+  public IsReady503Response putErrorsItem(String key, String errorsItem) {
+    if (this.errors == null) {
+      this.errors = new HashMap<>();
     }
-    this.details.add(detailsItem);
+    this.errors.put(key, errorsItem);
     return this;
   }
 
   /**
-   * Get details
-   * @return details
+   * Errors contains a list of errors that caused the not ready status.
+   * @return errors
    */
-  @javax.annotation.Nullable
-  public List<Map<String, Object>> getDetails() {
-    return details;
+  @javax.annotation.Nonnull
+  public Map<String, String> getErrors() {
+    return errors;
   }
 
-  public void setDetails(List<Map<String, Object>> details) {
-    this.details = details;
-  }
-
-
-  public GenericError message(String message) {
-    this.message = message;
-    return this;
-  }
-
-  /**
-   * Get message
-   * @return message
-   */
-  @javax.annotation.Nullable
-  public String getMessage() {
-    return message;
-  }
-
-  public void setMessage(String message) {
-    this.message = message;
-  }
-
-
-  public GenericError reason(String reason) {
-    this.reason = reason;
-    return this;
-  }
-
-  /**
-   * Get reason
-   * @return reason
-   */
-  @javax.annotation.Nullable
-  public String getReason() {
-    return reason;
-  }
-
-  public void setReason(String reason) {
-    this.reason = reason;
-  }
-
-
-  public GenericError request(String request) {
-    this.request = request;
-    return this;
-  }
-
-  /**
-   * Get request
-   * @return request
-   */
-  @javax.annotation.Nullable
-  public String getRequest() {
-    return request;
-  }
-
-  public void setRequest(String request) {
-    this.request = request;
-  }
-
-
-  public GenericError status(String status) {
-    this.status = status;
-    return this;
-  }
-
-  /**
-   * Get status
-   * @return status
-   */
-  @javax.annotation.Nullable
-  public String getStatus() {
-    return status;
-  }
-
-  public void setStatus(String status) {
-    this.status = status;
+  public void setErrors(Map<String, String> errors) {
+    this.errors = errors;
   }
 
   /**
@@ -215,9 +99,9 @@ public class GenericError {
    *
    * @param key name of the property
    * @param value value of the property
-   * @return the GenericError instance itself
+   * @return the IsReady503Response instance itself
    */
-  public GenericError putAdditionalProperty(String key, Object value) {
+  public IsReady503Response putAdditionalProperty(String key, Object value) {
     if (this.additionalProperties == null) {
         this.additionalProperties = new HashMap<String, Object>();
     }
@@ -256,31 +140,21 @@ public class GenericError {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    GenericError genericError = (GenericError) o;
-    return Objects.equals(this.code, genericError.code) &&
-        Objects.equals(this.details, genericError.details) &&
-        Objects.equals(this.message, genericError.message) &&
-        Objects.equals(this.reason, genericError.reason) &&
-        Objects.equals(this.request, genericError.request) &&
-        Objects.equals(this.status, genericError.status)&&
-        Objects.equals(this.additionalProperties, genericError.additionalProperties);
+    IsReady503Response isReady503Response = (IsReady503Response) o;
+    return Objects.equals(this.errors, isReady503Response.errors)&&
+        Objects.equals(this.additionalProperties, isReady503Response.additionalProperties);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(code, details, message, reason, request, status, additionalProperties);
+    return Objects.hash(errors, additionalProperties);
   }
 
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class GenericError {\n");
-    sb.append("    code: ").append(toIndentedString(code)).append("\n");
-    sb.append("    details: ").append(toIndentedString(details)).append("\n");
-    sb.append("    message: ").append(toIndentedString(message)).append("\n");
-    sb.append("    reason: ").append(toIndentedString(reason)).append("\n");
-    sb.append("    request: ").append(toIndentedString(request)).append("\n");
-    sb.append("    status: ").append(toIndentedString(status)).append("\n");
+    sb.append("class IsReady503Response {\n");
+    sb.append("    errors: ").append(toIndentedString(errors)).append("\n");
     sb.append("    additionalProperties: ").append(toIndentedString(additionalProperties)).append("\n");
     sb.append("}");
     return sb.toString();
@@ -304,62 +178,49 @@ public class GenericError {
   static {
     // a set of all properties/fields (JSON key names)
     openapiFields = new HashSet<String>();
-    openapiFields.add("code");
-    openapiFields.add("details");
-    openapiFields.add("message");
-    openapiFields.add("reason");
-    openapiFields.add("request");
-    openapiFields.add("status");
+    openapiFields.add("errors");
 
     // a set of required properties/fields (JSON key names)
     openapiRequiredFields = new HashSet<String>();
+    openapiRequiredFields.add("errors");
   }
 
   /**
    * Validates the JSON Element and throws an exception if issues found
    *
    * @param jsonElement JSON Element
-   * @throws IOException if the JSON Element is invalid with respect to GenericError
+   * @throws IOException if the JSON Element is invalid with respect to IsReady503Response
    */
   public static void validateJsonElement(JsonElement jsonElement) throws IOException {
       if (jsonElement == null) {
-        if (!GenericError.openapiRequiredFields.isEmpty()) { // has required fields but JSON element is null
-          throw new IllegalArgumentException(String.format("The required field(s) %s in GenericError is not found in the empty JSON string", GenericError.openapiRequiredFields.toString()));
+        if (!IsReady503Response.openapiRequiredFields.isEmpty()) { // has required fields but JSON element is null
+          throw new IllegalArgumentException(String.format("The required field(s) %s in IsReady503Response is not found in the empty JSON string", IsReady503Response.openapiRequiredFields.toString()));
+        }
+      }
+
+      // check to make sure all required properties/fields are present in the JSON string
+      for (String requiredField : IsReady503Response.openapiRequiredFields) {
+        if (jsonElement.getAsJsonObject().get(requiredField) == null) {
+          throw new IllegalArgumentException(String.format("The required field `%s` is not found in the JSON string: %s", requiredField, jsonElement.toString()));
         }
       }
         JsonObject jsonObj = jsonElement.getAsJsonObject();
-      // ensure the optional json data is an array if present
-      if (jsonObj.get("details") != null && !jsonObj.get("details").isJsonNull() && !jsonObj.get("details").isJsonArray()) {
-        throw new IllegalArgumentException(String.format("Expected the field `details` to be an array in the JSON string but got `%s`", jsonObj.get("details").toString()));
-      }
-      if ((jsonObj.get("message") != null && !jsonObj.get("message").isJsonNull()) && !jsonObj.get("message").isJsonPrimitive()) {
-        throw new IllegalArgumentException(String.format("Expected the field `message` to be a primitive type in the JSON string but got `%s`", jsonObj.get("message").toString()));
-      }
-      if ((jsonObj.get("reason") != null && !jsonObj.get("reason").isJsonNull()) && !jsonObj.get("reason").isJsonPrimitive()) {
-        throw new IllegalArgumentException(String.format("Expected the field `reason` to be a primitive type in the JSON string but got `%s`", jsonObj.get("reason").toString()));
-      }
-      if ((jsonObj.get("request") != null && !jsonObj.get("request").isJsonNull()) && !jsonObj.get("request").isJsonPrimitive()) {
-        throw new IllegalArgumentException(String.format("Expected the field `request` to be a primitive type in the JSON string but got `%s`", jsonObj.get("request").toString()));
-      }
-      if ((jsonObj.get("status") != null && !jsonObj.get("status").isJsonNull()) && !jsonObj.get("status").isJsonPrimitive()) {
-        throw new IllegalArgumentException(String.format("Expected the field `status` to be a primitive type in the JSON string but got `%s`", jsonObj.get("status").toString()));
-      }
   }
 
   public static class CustomTypeAdapterFactory implements TypeAdapterFactory {
     @SuppressWarnings("unchecked")
     @Override
     public <T> TypeAdapter<T> create(Gson gson, TypeToken<T> type) {
-       if (!GenericError.class.isAssignableFrom(type.getRawType())) {
-         return null; // this class only serializes 'GenericError' and its subtypes
+       if (!IsReady503Response.class.isAssignableFrom(type.getRawType())) {
+         return null; // this class only serializes 'IsReady503Response' and its subtypes
        }
        final TypeAdapter<JsonElement> elementAdapter = gson.getAdapter(JsonElement.class);
-       final TypeAdapter<GenericError> thisAdapter
-                        = gson.getDelegateAdapter(this, TypeToken.get(GenericError.class));
+       final TypeAdapter<IsReady503Response> thisAdapter
+                        = gson.getDelegateAdapter(this, TypeToken.get(IsReady503Response.class));
 
-       return (TypeAdapter<T>) new TypeAdapter<GenericError>() {
+       return (TypeAdapter<T>) new TypeAdapter<IsReady503Response>() {
            @Override
-           public void write(JsonWriter out, GenericError value) throws IOException {
+           public void write(JsonWriter out, IsReady503Response value) throws IOException {
              JsonObject obj = thisAdapter.toJsonTree(value).getAsJsonObject();
              obj.remove("additionalProperties");
              // serialize additional properties
@@ -387,12 +248,12 @@ public class GenericError {
            }
 
            @Override
-           public GenericError read(JsonReader in) throws IOException {
+           public IsReady503Response read(JsonReader in) throws IOException {
              JsonElement jsonElement = elementAdapter.read(in);
              validateJsonElement(jsonElement);
              JsonObject jsonObj = jsonElement.getAsJsonObject();
              // store additional fields in the deserialized instance
-             GenericError instance = thisAdapter.fromJsonTree(jsonObj);
+             IsReady503Response instance = thisAdapter.fromJsonTree(jsonObj);
              for (Map.Entry<String, JsonElement> entry : jsonObj.entrySet()) {
                if (!openapiFields.contains(entry.getKey())) {
                  if (entry.getValue().isJsonPrimitive()) { // primitive type
@@ -419,18 +280,18 @@ public class GenericError {
   }
 
   /**
-   * Create an instance of GenericError given an JSON string
+   * Create an instance of IsReady503Response given an JSON string
    *
    * @param jsonString JSON string
-   * @return An instance of GenericError
-   * @throws IOException if the JSON string is invalid with respect to GenericError
+   * @return An instance of IsReady503Response
+   * @throws IOException if the JSON string is invalid with respect to IsReady503Response
    */
-  public static GenericError fromJson(String jsonString) throws IOException {
-    return JSON.getGson().fromJson(jsonString, GenericError.class);
+  public static IsReady503Response fromJson(String jsonString) throws IOException {
+    return JSON.getGson().fromJson(jsonString, IsReady503Response.class);
   }
 
   /**
-   * Convert an instance of GenericError to an JSON string
+   * Convert an instance of IsReady503Response to an JSON string
    *
    * @return JSON string
    */

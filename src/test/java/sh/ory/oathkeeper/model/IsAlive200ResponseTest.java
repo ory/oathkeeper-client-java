@@ -24,41 +24,25 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 /**
- * Model tests for Upstream
+ * Model tests for IsAlive200Response
  */
-public class UpstreamTest {
-    private final Upstream model = new Upstream();
+public class IsAlive200ResponseTest {
+    private final IsAlive200Response model = new IsAlive200Response();
 
     /**
-     * Model tests for Upstream
+     * Model tests for IsAlive200Response
      */
     @Test
-    public void testUpstream() {
-        // TODO: test Upstream
+    public void testIsAlive200Response() {
+        // TODO: test IsAlive200Response
     }
 
     /**
-     * Test the property 'preserveHost'
+     * Test the property 'status'
      */
     @Test
-    public void preserveHostTest() {
-        // TODO: test preserveHost
-    }
-
-    /**
-     * Test the property 'stripPath'
-     */
-    @Test
-    public void stripPathTest() {
-        // TODO: test stripPath
-    }
-
-    /**
-     * Test the property 'url'
-     */
-    @Test
-    public void urlTest() {
-        // TODO: test url
+    public void statusTest() {
+        // TODO: test status
     }
 
 }

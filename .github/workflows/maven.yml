@@ -13,7 +13,7 @@ on:
 
 jobs:
   build:
-    name: Build ORY Oathkeeper
+    name: Build Ory Oathkeeper API
     runs-on: ubuntu-latest
     strategy:
       matrix:

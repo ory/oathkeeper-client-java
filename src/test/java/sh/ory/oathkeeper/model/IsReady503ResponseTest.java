@@ -20,45 +20,31 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 /**
- * Model tests for Upstream
+ * Model tests for IsReady503Response
  */
-public class UpstreamTest {
-    private final Upstream model = new Upstream();
+public class IsReady503ResponseTest {
+    private final IsReady503Response model = new IsReady503Response();
 
     /**
-     * Model tests for Upstream
+     * Model tests for IsReady503Response
      */
     @Test
-    public void testUpstream() {
-        // TODO: test Upstream
+    public void testIsReady503Response() {
+        // TODO: test IsReady503Response
     }
 
     /**
-     * Test the property 'preserveHost'
+     * Test the property 'errors'
      */
     @Test
-    public void preserveHostTest() {
-        // TODO: test preserveHost
-    }
-
-    /**
-     * Test the property 'stripPath'
-     */
-    @Test
-    public void stripPathTest() {
-        // TODO: test stripPath
-    }
-
-    /**
-     * Test the property 'url'
-     */
-    @Test
-    public void urlTest() {
-        // TODO: test url
+    public void errorsTest() {
+        // TODO: test errors
     }
 
 }
